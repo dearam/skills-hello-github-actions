@@ -1,0 +1,20 @@
+name: JayFlows
+on:
+  pull_request: 
+    branches: ["main"]
+  workflow_dispatch:
+  
+jobs:
+  build:
+    name: flow
+    runs-on: ubuntu-latest
+    steps:
+      - name: first
+        uses: actions/checkout@v4
+      - name: print
+        run: echo "hello bhai"
+      
+    
+  
+
+  
